@@ -5,6 +5,7 @@ KrishiMitra AI is a multilingual AI-powered farming assistant designed to suppor
 
 **KrishiMitra means "Farmer's Friend"** — an AI companion that helps farmers make better agricultural decisions using modern AI technology.
 
+---
 
 ## 🚀 Project Overview
 
@@ -21,6 +22,7 @@ KrishiMitra AI solves this problem by providing:
 
 The system focuses on accessibility for farmers by enabling interaction through speech and regional languages.
 
+---
 
 ## ✨ Features
 
@@ -30,6 +32,7 @@ Farmers can interact naturally using voice.
 
 Workflow:
 
+```
 Farmer Speech
       ↓
 Speech Recognition
@@ -39,6 +42,7 @@ Groq Llama AI
 Farming Advice
       ↓
 Text-to-Speech Response
+```
 
 Features:
 
@@ -47,6 +51,7 @@ Features:
 - Regional language responses
 - Audio output for farmers
 
+---
 
 ### 🌿 2. Crop Disease Detection
 
@@ -65,6 +70,7 @@ Focus:
 ✔ Natural farming practices  
 ✔ Farmer-friendly explanations  
 
+---
 
 ### 🌦 3. Weather Intelligence
 
@@ -78,6 +84,7 @@ Prototype weather module provides:
 
 The architecture supports integration with real-time weather APIs.
 
+---
 
 ### 📈 4. Market Intelligence
 
@@ -89,6 +96,7 @@ The system provides:
 
 Helping farmers make better selling decisions.
 
+---
 
 ### 🌐 5. Multilingual Support
 
@@ -108,6 +116,7 @@ Farmers can:
 ✔ Receive AI advice in their language  
 ✔ Listen to responses through audio  
 
+---
 
 ## 🛠️ Tech Stack
 
@@ -138,10 +147,11 @@ Farmers can:
 - Pillow
 - Transformers
 
+---
 
 ## 🧠 AI Architecture
 
-
+```
                  User / Farmer
                        |
         --------------------------------
@@ -157,12 +167,14 @@ Farmers can:
         --------------------------------
         |                              |
      Text Advice                Voice Response
+```
 
-
+---
 
 ## 📂 Project Structure
 
-KrishiMitra-AI
+```
+KrishiMitra-AI/
 
 │
 ├── app.py
@@ -172,7 +184,9 @@ KrishiMitra-AI
 ├── packages.txt
 │
 └── README.md
+```
 
+---
 
 ## ⚙️ Installation
 
@@ -194,6 +208,7 @@ Run Streamlit:
 streamlit run app.py
 ```
 
+---
 
 ## 🔐 Environment Setup
 
@@ -203,6 +218,7 @@ Add your Groq API key in Streamlit secrets:
 GROQ_API_KEY="your_api_key"
 ```
 
+---
 
 ## 📌 Future Improvements
 
@@ -212,6 +228,7 @@ GROQ_API_KEY="your_api_key"
 - More regional languages
 - Mobile application deployment
 
+---
 
 ## 🎯 Impact
 
@@ -224,10 +241,12 @@ KrishiMitra AI aims to make agricultural knowledge more accessible by combining:
 
 to empower farmers with instant and intelligent farming assistance.
 
+---
 
 ## 👨‍💻 Developed For
 
 AI Assignment - Connecting Dreams Foundation
 
+```
 Building technology that supports farmers and sustainable agriculture.
-
+```
