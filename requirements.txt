@@ -1,0 +1,10 @@
+streamlit
+groq
+transformers
+torch
+torchvision
+pillow
+gtts
+SpeechRecognition
+pydub
+streamlit-mic-recorder
